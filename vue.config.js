@@ -1,3 +1,14 @@
 module.exports = {
-  lintOnSave: false
+	lintOnSave: false,
+	configureWebpack: {
+		resolve: {
+			alias: {
+				'assets':'@assets',
+				'components':'@components',
+				'views':'@views',
+				'network':'@network',
+				'common':'@common'
+			}
+		}
+	}
 }
