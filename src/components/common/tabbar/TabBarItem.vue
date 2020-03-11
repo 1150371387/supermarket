@@ -17,10 +17,6 @@
 			btnClick() {
 				// console.log('按钮点击')
 				// console.log(this.$props.path)
-
-				console.log(this.$route.path)
-				console.log(this.path)
-				console.log(this.$route)
 				this.$router.push(this.path)
 			}
 		},
@@ -39,7 +35,7 @@
 				return this.$route.path == this.path
 			},
 			activeStyle() {
-				console.log(this.activeColor)
+				// console.log(this.activeColor)
 				return this.isActive ? {'background-color':this.activeColor} : {}
 			}
 		}

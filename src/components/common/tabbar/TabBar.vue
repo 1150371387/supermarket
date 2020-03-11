@@ -13,7 +13,6 @@
 </script>
 
 <style>
-	@import url("../assets/css/base.css");
 	#tab-bar{
 		display: flex;
 		position: fixed;
